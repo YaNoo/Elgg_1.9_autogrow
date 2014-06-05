@@ -1,5 +1,11 @@
-Plugin Skeleton
+Plugin Elgg_1.9_autogrow 
 =========================
-This directory includes a plugin skeleton to be used as the starting point when
-creating a new plugin. Just create a new directory in /mod/ and copy the files
-and directories into it. Then update the manifest and start coding.
+
+It applies autosize() on all texteara elements
+
+Depends on https://github.com/jackmoore/autosize
+
+## Changelog
+
+### v1.0 - 2014/06/05
+First release

@@ -1,7 +1,13 @@
-<?php 
-
-elgg_load_js('jquery.autosize');
+<?php
+elgg_load_js ( 'jquery.autosize' );
 ?>
 <script type="text/javascript">
-alert("plop !");
+$(document).ready(function(){
+$('textarea').each(
+    function(index){
+        $(this).attr('rows', '1');
+        $(this).autosize();
+    }
+);
+});
 </script>
